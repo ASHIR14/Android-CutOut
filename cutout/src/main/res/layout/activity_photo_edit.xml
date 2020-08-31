@@ -5,7 +5,7 @@
     android:orientation="vertical"
     >
 
-    <!--<FrameLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -13,7 +13,7 @@
             android:id="@+id/photo_edit_toolbar"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_30sdp"
-            android:background="#ffffff"
+            android:background="#238ee7"
             android:elevation="4dp"
             android:minHeight="?attr/actionBarSize"
             >
@@ -24,7 +24,7 @@
                 android:layout_gravity="end"
                 >
 
-                <Button
+                <!--<Button
                     android:id="@+id/done"
                     android:layout_width="@dimen/_25sdp"
                     android:layout_height="@dimen/_25sdp"
@@ -32,13 +32,13 @@
                     android:layout_marginEnd="10dp"
                     android:background="@drawable/done"
                     android:layout_centerInParent="true"
-                    />
+                    />-->
 
             </RelativeLayout>
 
         </android.support.v7.widget.Toolbar>
 
-    </FrameLayout>-->
+    </FrameLayout>
 
     <com.alexvasilkov.gestures.views.GestureFrameLayout
         android:id="@+id/gestureView"
